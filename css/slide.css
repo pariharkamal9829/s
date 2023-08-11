@@ -1,0 +1,137 @@
+/* carousel sliding image css style */
+h5{font-family: 'Courier New', Courier, monospace;
+    font-style: inherit;
+    font-style: bold;
+    font-weight: bolder;
+  }
+  .d-block-face {
+    height: 400px;
+  }
+  
+  p{font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-style: initial;
+    font:bold;
+    font-weight: bolder;
+  
+  }
+  a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* statement box center allign css */
+  #features{ padding-left: 10% ;
+    padding-right: 1%;
+    padding: 10px;
+    border: 10px solid rgb(15, 202, 99);
+    padding-top: 10px;
+    margin-top: 30px;
+    box-shadow: #3CCF4E;
+   }
+   
+  .row{text-align: center;
+    align-items: center;
+    }
+  
+  .container-fluid{
+    max-height: fit-content;
+  }
+  h3 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+  p{ color: grey;}
+  .row{background-color: white;}
+  
+  /* caterogies box of 3 images highlighted collection greed  */
+  .caterogies{
+    overflow: hidden;
+    position: relative;
+    width: 400px;
+  margin-left: 10px;
+  padding-left: 10px;
+  }
+   .caterogies-img{
+    display: block;
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+   }
+   .caterogies:hover img{ transform: scale(1.5);}
+  
+  .caterogies-overlay{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(78, 131, 86, 0.795) ;
+    color: #298a43;
+  font-family: fantasy; 
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+  }
+  
+  .caterogies-overlay >*{
+  transform: translateY(20px);
+  transition: transform 0.25s;
+  
+  }
+  
+  
+  .caterogies-overlay:hover{
+    opacity: 1;
+  }
+  .caterogies-overlay:hover >*{
+  transform: translateY(0);
+  
+  }
+  .caterogies-tittle{
+    font-size: 30px;
+    font-weight: bold;
+  
+  }
+  .caterogies-description{
+    font-size: 20px;
+    margin-top: 0.25cm;
+  }
+  
+
+  /* -------------testimonial--------------- */
+.small-container{
+    text-align: center;
+    margin:auto;
+    
+  }
+  .testimonial .col-3{
+    text-align: center;
+    padding: 4px 2px;
+    box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+    width: 33%;
+  }
+  .testimonial .col-3:hover{
+    transform: translateY(-10px);
+  }
+  .testimonial .col-3 h3{
+    font-weight: 60;
+    font-size: 16px;
+    color: #555;
+  
+  }
+  .testimonial .col-3 img{
+    width: 50px;
+    margin-top: 10px;
+    border-radius: 50%;
+  }
+  .fa.fa-quote-left{
+  font-size: 34px;
+  color: greenyellow;
+  }
+  .col-3 p{
+    font-size: 12px;
+  margin: 1px 0;
+  color: #0298b7 
+  }
+  
